@@ -5,9 +5,9 @@ on:
     branches: [ main ]
 
 env:
-  ECR_REPOSITORY: test-repo
-  EKS_CLUSTER_NAME: my-cluster
-  AWS_REGION: us-east-2
+  ECR_REPOSITORY: usecase-10-ecr
+ # EKS_CLUSTER_NAME: my-cluster
+  AWS_REGION: ap-south-1
 
 jobs:
   build:
